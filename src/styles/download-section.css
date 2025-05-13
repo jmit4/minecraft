@@ -1,0 +1,33 @@
+.download-section {
+  padding: var(--spacing-24) 0;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.download-section .section-title {
+  color: white;
+}
+
+.download-section .section-description {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-4);
+  padding-top: var(--spacing-4);
+}
+
+.download-info {
+  text-align: center;
+  padding-top: var(--spacing-8);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (min-width: 640px) {
+  .download-buttons {
+    flex-direction: row;
+  }
+}
