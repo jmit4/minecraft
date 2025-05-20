@@ -1,4 +1,5 @@
 /* Reset and base styles */
+@import "./fonts.css";
 *,
 *::before,
 *::after {
@@ -9,7 +10,7 @@
 
 :root {
   /* Colors */
-  --color-background: #ffffff;
+  /* --color-background: #ffffff;
   --color-foreground: #0f172a;
   --color-primary: #10b981;
   --color-primary-hover: #059669;
@@ -26,10 +27,10 @@
   --color-destructive: #ef4444;
   --color-destructive-foreground: #ffffff;
   --color-card: #ffffff;
-  --color-card-foreground: #0f172a;
+  --color-card-foreground: #0f172a; */
 
   /* Feature icon colors */
-  --color-emerald: #10b981;
+  /* --color-emerald: #10b981;
   --color-emerald-bg: #ecfdf5;
   --color-amber: #f59e0b;
   --color-amber-bg: #fffbeb;
@@ -40,7 +41,34 @@
   --color-purple: #8b5cf6;
   --color-purple-bg: #f5f3ff;
   --color-orange: #f97316;
-  --color-orange-bg: #fff7ed;
+  --color-orange-bg: #fff7ed; */
+
+  --color-background: #1a1a1a;
+  --color-foreground: #f8fafc;
+  --color-primary: #10b94b;
+  --color-primary-hover: #34d399;
+  --color-primary-foreground: #1e1e1e;
+  --color-secondary: #1e1e1e;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #1c1c1c;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #1c1c1c;
+  --color-accent-foreground: #f8fafc;
+  --color-border: #1d1d1d;
+  --color-input: #1d1d1d;
+  --color-ring: #059669;
+  --color-destructive: #7f1d1d;
+  --color-destructive-foreground: #f8fafc;
+  --color-card: #232323;
+  --color-card-foreground: #f8fafc;
+
+  /* Feature icon colors in dark mode */
+  --color-emerald-bg: rgba(16, 185, 129, 0.2);
+  --color-amber-bg: rgba(245, 158, 11, 0.2);
+  --color-red-bg: rgba(239, 68, 68, 0.2);
+  --color-blue-bg: rgba(59, 130, 246, 0.2);
+  --color-purple-bg: rgba(139, 92, 246, 0.2);
+  --color-orange-bg: rgba(249, 115, 22, 0.2);
 
   /* Social icon colors */
   --color-discord: #5865f2;
@@ -119,7 +147,7 @@ img {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--spacing-8);
+  padding: 0 var(--spacing-4);
 }
 
 .sr-only {

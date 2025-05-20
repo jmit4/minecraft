@@ -1,11 +1,13 @@
 .download-section {
-  padding: var(--spacing-24) 0;
+  padding: var(--spacing-) 0;
   background-color: var(--color-primary);
-  color: white;
+  color: rgb(31, 40, 34);
+  font-weight: 500
 }
 
 .download-section .section-title {
   color: white;
+  padding-top: 30px;
 }
 
 .download-section .section-description {
@@ -17,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   gap: var(--spacing-4);
-  padding-top: var(--spacing-4);
+  padding: var(--spacing-4);
 }
 
 .download-info {

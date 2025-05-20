@@ -85,6 +85,13 @@
   width: 1.25rem;
 }
 
+.footer-classification-img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 1.5rem;
+}
+
 @media (min-width: 768px) {
   .footer-grid {
     grid-template-columns: repeat(4, 1fr);

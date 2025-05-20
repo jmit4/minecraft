@@ -1,5 +1,5 @@
 .community-section {
-  padding: var(--spacing-24) 0;
+  padding: var(--spacing-12) 0;
 }
 
 .community-grid {
@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: var(--spacing-6);
+  padding: var(--spacing-2);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   background-color: var(--color-card);

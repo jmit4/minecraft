@@ -23,38 +23,38 @@ const FeaturesSection = () => {
   const features: FeatureCardProps[] = [
     {
       icon: <Cube className="icon" />,
-      title: "Endless Creation",
-      description: "Build anything you can imagine with hundreds of unique blocks and materials.",
+      title: "Creación sin límites",
+      description: "Construye todo lo que imagines con cientos de bloques y materiales únicos.",
       iconClass: "emerald-icon",
     },
     {
       icon: <Map className="icon" />,
-      title: "Vast Exploration",
-      description: "Discover procedurally generated worlds with unique biomes, caves, and structures.",
+      title: "Exploración inmensa",
+      description: "Descubre mundos generados proceduralmente con biomas, cuevas y estructuras únicas.",
       iconClass: "amber-icon",
     },
     {
       icon: <Sword className="icon" />,
-      title: "Epic Adventures",
-      description: "Battle monsters, craft weapons, and embark on quests across the land.",
+      title: "Aventuras épicas",
+      description: "Enfréntate a monstruos, crea armas y embárcate en misiones a lo largo del mundo.",
       iconClass: "red-icon",
     },
     {
       icon: <Users className="icon" />,
-      title: "Multiplayer",
-      description: "Play with friends to build, explore, and survive together in shared worlds.",
+      title: "Multijugador",
+      description: "Juega con amigos para construir, explorar y sobrevivir juntos en mundos compartidos.",
       iconClass: "blue-icon",
     },
     {
       icon: <Download className="icon" />,
-      title: "Mods & Add-ons",
-      description: "Customize your experience with community-created modifications and add-ons.",
+      title: "Mods y complementos",
+      description: "Personaliza tu experiencia con modificaciones y complementos creados por la comunidad.",
       iconClass: "purple-icon",
     },
     {
       icon: <ChevronRight className="icon" />,
-      title: "Regular Updates",
-      description: "Enjoy new content, blocks, and features with our frequent game updates.",
+      title: "Actualizaciones regulares",
+      description: "Disfruta de nuevo contenido, bloques y funciones con nuestras frecuentes actualizaciones.",
       iconClass: "orange-icon",
     },
   ]
@@ -63,9 +63,9 @@ const FeaturesSection = () => {
     <section id="features" className="features-section">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Game Features</h2>
+          <h2 className="section-title">Características del juego</h2>
           <p className="section-description">
-            Discover what makes BlockCraft a unique experience in the world of block-building games.
+            Descubre qué hace de BlockCraft una experiencia única en el mundo de los juegos de construcción con bloques.
           </p>
         </div>
 

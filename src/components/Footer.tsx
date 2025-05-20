@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import { CuboidIcon as Cube, Github, Twitter, DiscIcon as Discord } from "lucide-react"
 import { HashLink } from "react-router-hash-link"
 import "../styles/footer.css"
+import mojang from "../assets/logo-mojang.png"
+import xbox from "../assets/logo-xbox.png"
+import classification from "../assets/classification.svg"
 
 interface FooterLink {
   text: string
@@ -17,31 +20,31 @@ interface FooterSection {
 const Footer = () => {
   const footerSections: FooterSection[] = [
     {
-      title: "Links",
+      title: "Enlaces",
       links: [
-        { text: "Home", href: "/", isHashLink: false },
-        { text: "Features", href: "#features", isHashLink: true },
-        { text: "Gallery", href: "#gallery", isHashLink: true },
-        { text: "Community", href: "#community", isHashLink: true },
-        { text: "Download", href: "#download", isHashLink: true },
+        { text: "Inicio", href: "/", isHashLink: false },
+        { text: "Características", href: "#features", isHashLink: true },
+        { text: "Galería", href: "#gallery", isHashLink: true },
+        { text: "Comunidad", href: "#community", isHashLink: true },
+        { text: "Descargar", href: "#download", isHashLink: true },
       ],
     },
     {
-      title: "Resources",
+      title: "Recursos",
       links: [
         { text: "Wiki", href: "#", isHashLink: false },
-        { text: "Tutorials", href: "#", isHashLink: false },
-        { text: "Mod Database", href: "#", isHashLink: false },
-        { text: "Support", href: "#", isHashLink: false },
-        { text: "FAQ", href: "#", isHashLink: false },
+        { text: "Tutoriales", href: "#", isHashLink: false },
+        { text: "Base de Mods", href: "#", isHashLink: false },
+        { text: "Soporte", href: "#", isHashLink: false },
+        { text: "Preguntas Frecuentes", href: "#", isHashLink: false },
       ],
     },
     {
       title: "Legal",
       links: [
-        { text: "Privacy Policy", href: "#", isHashLink: false },
-        { text: "Terms of Service", href: "#", isHashLink: false },
-        { text: "Cookie Policy", href: "#", isHashLink: false },
+        { text: "Política de Privacidad", href: "#", isHashLink: false },
+        { text: "Términos de Servicio", href: "#", isHashLink: false },
+        { text: "Política de Cookies", href: "#", isHashLink: false },
         { text: "EULA", href: "#", isHashLink: false },
       ],
     },
@@ -60,11 +63,13 @@ const Footer = () => {
           <div className="footer-branding">
             <div className="logo">
               <Cube className="logo-icon" />
-              <span className="logo-text">BlockCraft</span>
+              <span className="logo-text">Mineraft</span>
             </div>
             <p className="footer-description">
-              A block-building adventure game where your imagination is the only limit.
+              Un juego de aventuras y construcción con bloques donde tu imaginación es el único límite.
             </p>
+            <img src={xbox} alt="Mojang logo" style={{width: "200px"}}/>
+            <img src={mojang} alt="Mojang logo" style={{width: "200px"}}/>
           </div>
 
           {footerSections.map((section, sectionIndex) => (
@@ -85,12 +90,21 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
+              
             </div>
           ))}
         </div>
-
+        {/* Mueve la imagen fuera del grid y usa una clase para alinearla a la derecha */}
+        <img
+          src={classification}
+          alt="classification"
+          style={{ width: "150px" }}
+          className="footer-classification-img"
+        />
         <div className="footer-bottom">
-          <p className="copyright">© {new Date().getFullYear()} BlockCraft. All rights reserved.</p>
+          <p className="copyright">
+            © {new Date().getFullYear()} BlockCraft. Todos los derechos reservados.
+          </p>
           <div className="social-links">
             {socialLinks.map((social, index) => (
               <Link key={index} to={social.href} className="social-link">

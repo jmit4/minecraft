@@ -15,22 +15,22 @@ const CommunitySection = () => {
     {
       icon: <Discord className="platform-icon" />,
       title: "Discord",
-      description: "Join our Discord server with over 500,000 members to chat, share builds, and find friends.",
-      buttonText: "Join Discord",
+      description: "Únete a nuestro servidor de Discord con más de 500,000 miembros para chatear, compartir construcciones y encontrar amigos.",
+      buttonText: "Unirse a Discord",
       iconClass: "discord-icon",
     },
     {
       icon: <Twitter className="platform-icon" />,
       title: "Twitter",
-      description: "Follow us on Twitter for the latest news, updates, and community highlights.",
-      buttonText: "Follow Us",
+      description: "Síguenos en Twitter para conocer las últimas noticias, actualizaciones y novedades de la comunidad.",
+      buttonText: "Síguenos",
       iconClass: "twitter-icon",
     },
     {
       icon: <Github className="platform-icon" />,
-      title: "Mod Community",
-      description: "Explore our GitHub repositories to contribute to mods or create your own add-ons.",
-      buttonText: "Explore Mods",
+      title: "Comunidad de Mods",
+      description: "Explora nuestros repositorios en GitHub para contribuir a mods o crear tus propios complementos.",
+      buttonText: "Explorar Mods",
       iconClass: "github-icon",
     },
   ]
@@ -39,8 +39,8 @@ const CommunitySection = () => {
     <section id="community" className="community-section">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Join Our Community</h2>
-          <p className="section-description">Connect with millions of BlockCraft players around the world.</p>
+          <h2 className="section-title">Únete a Nuestra Comunidad</h2>
+          <p className="section-description">Conéctate con millones de jugadores de BlockCraft alrededor del mundo.</p>
         </div>
 
         <div className="community-grid">

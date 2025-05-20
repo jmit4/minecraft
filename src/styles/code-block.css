@@ -1,0 +1,59 @@
+.code-block-container {
+  margin: var(--spacing-6) 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  background-color: #2d2d2d;
+  max-width: 100%;
+  width: 100%;
+}
+
+.code-block-title {
+  background-color: #242424;
+  color: #e2e8f0;
+  padding: var(--spacing-2) var(--spacing-4);
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.code-block {
+  position: relative;
+  padding: var(--spacing-4);
+  overflow-x: auto;
+}
+
+.code-content {
+  margin: 0;
+  font-family: monospace;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #e2e8f0;
+  white-space: pre;
+}
+
+.code-content code {
+  font-family: monospace;
+}
+
+.copy-button {
+  position: absolute;
+  top: var(--spacing-2);
+  right: var(--spacing-2);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Dark mode adjustments */
+.dark .code-block-container {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
