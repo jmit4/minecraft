@@ -1,54 +1,32 @@
-# React + TypeScript + Vite
+# 🎮 Fake Minecraft Offer Page – Ingeniería Social (Uso Educativo)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene un proyecto **con fines exclusivamente educativos**, que simula una página falsa de oferta limitada de Minecraft, con el objetivo de demostrar técnicas de **ingeniería social** y **distribución de malware** de forma controlada.
 
-Currently, two official plugins are available:
+## 🚨 Advertencia Ética
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ **Este proyecto NO debe utilizarse para fines maliciosos, ilegales o no éticos.**  
+> Su uso está estrictamente limitado a actividades de aprendizaje, investigación o pruebas en entornos controlados, como parte de laboratorios académicos o personales sobre ciberseguridad.
 
-## Expanding the ESLint configuration
+## 🎯 Objetivo del Proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+El objetivo de este ejercicio es mostrar cómo los atacantes pueden atraer a una víctima mediante una oferta atractiva y falsa (por ejemplo, "2 días de Minecraft gratis") para que ejecute un archivo malicioso. Esta simulación ayuda a:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Entender cómo funciona un ataque basado en **ingeniería social**.
+- Analizar los vectores de infección más comunes.
+- Enseñar formas de **mitigación y protección** ante este tipo de amenazas.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧪 Contenido
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Código HTML/CSS/JS para una página de oferta falsa.
+- Ejemplo de payload (no funcional o simulado) para propósitos demostrativos.
+- Documentación del proceso de ejecución del ataque y análisis de riesgo.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛡️ Declaración de Responsabilidad
+
+Este proyecto **no contiene malware real ni busca dañar sistemas**. Cualquier uso inapropiado queda bajo la responsabilidad de quien lo ejecute.
+
+---
+
+**Autora/Autor:** [Tu nombre o alias]  
+**Licencia:** MIT (o la que prefieras)
+
