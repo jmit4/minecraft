@@ -17,7 +17,7 @@ El objetivo de este ejercicio es mostrar cómo los atacantes pueden atraer a una
 
 ## 🧪 Contenido
 
-- Código HTML/CSS/JS para una página de oferta falsa.
+- Código HTML/CSS/TS para una página de oferta falsa.
 - Ejemplo de payload (no funcional o simulado) para propósitos demostrativos.
 - Documentación del proceso de ejecución del ataque y análisis de riesgo.
 
